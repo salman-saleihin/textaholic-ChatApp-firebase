@@ -8,21 +8,16 @@ const Login = () => {
             <div className="formWrapper">
 
                 <span className="logo">TextAholic</span>
-                <span className="title">Register</span>
+                <span className="title">Login</span>
                 <form action="">
-                    <input type="text" placeholder='Display Name' />
                     <input type="email" placeholder='Email Address' name="" id="" />
                     <input type="password"  placeholder='Password' name="" id="" />
-                    <input style={{display:"none"}} type="file" name="" id="file" />
-                    <label htmlFor="file">
-                        <img src={Add} alt="" />
-                        <span>Add an Avatar</span>
-                    </label>
-                   <button>Sign Up</button>
+                    
+                   <button>Sign In</button>
 
                 </form>
 
-                <p>Already Have an Account? Login </p>
+                <p>You Don't Have an Account? Register </p>
             </div>
 
         </div>
